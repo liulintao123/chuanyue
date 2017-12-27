@@ -1,0 +1,274 @@
+*{margin: 0;padding: 0;}
+body{
+	background-color: #ddd;
+}
+.head{
+	height: 48px;
+	background-color: #323232;
+}
+.bx{
+	width: 1140px;
+	margin: 0 auto;
+}
+.bx:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clear{clear:both;}
+.f1{
+	width: 40%;
+	margin-left: 40px;
+	text-align: center;
+	line-height: 48px;
+	float:left;
+}
+.f1 li{
+	width: 16.6%;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+	list-style: none;
+}
+ a{
+	text-decoration: none;
+	color: #7b7b7b;
+}
+.f3{
+	float: left;
+}
+.f1 li:hover{
+	background-color: #dd4012;
+}
+.f1 .nopadding:hover{
+	padding-left: 0;
+	padding-right: 0;
+	background-color:rgba(0,0,0,0);
+}
+.f1 li a:hover{
+	color: #eeb1a7;
+}
+.f2{
+	list-style: none;
+	float: right;
+	line-height: 48px;
+	text-align: center;
+	margin: 0 auto;
+	margin-right: 30px;
+	}
+.f2 li{
+	float:left;
+	margin-left: 20px;
+	color: #575757;
+}
+.center{
+	background-image: url(images/tupian_03.png);
+	height: 220px;
+}
+.bt{
+	width: 1140px;
+	margin: 0 auto;
+	height: 80px;
+}				
+.bt2{
+	float: left;
+	list-style: none;
+	height: 25px;
+	background-color:gray;
+	color: #636363;
+	margin-bottom: 28px;
+	margin-top: 28px;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	margin-right: 5px;
+	background-color: #ffffff;
+}
+.bt2:hover{
+	background-color: black;
+}
+.tubx{
+	width: 1140px;
+	margin: 0 auto;	
+}
+.tubx .tu1{
+	float: left;
+	margin-bottom: 31px;
+	margin-right: 22px;
+}
+.tu1{
+	width: 260px;
+	background-color: #ffffff;	
+	border: 1px solid #ffffff;
+}
+ .tu1:hover{
+	border: 1px solid orange;
+	
+}
+.tubx .tu2{
+	margin-right: 0px;
+}
+.tu1 h1{
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 7px;
+	border-bottom: 1px solid #f7f7f7;
+	margin-left: 12px;
+}
+.tu1 p{
+	padding: 9px;
+	margin-bottom: 20px;;
+	color: #c0bfbf;
+	font-size: 10px;
+	margin-left: 12px;
+}
+.gd{
+	width: 240px;
+	margin: 0 auto;
+	margin-top: 44px;
+	margin-bottom: 30px;
+}
+.gd span{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	background-color: #ffffff;
+	line-height: 36px;
+	text-align: center;
+}
+.gd span:hover{
+	background-color: orange;
+}
+.gd  a{
+	font-size: 14px;
+}
+.later{
+	background-color: #323232;
+	height: 79px;
+}
+.laterbx{
+	width: 1140px;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+	margin-bottom: 26px;
+	margin-top: 24px;
+}
+.right{
+	float: right;		
+}
+.zt li{
+	list-style: none;
+	float: right;
+	font-size: 12px;
+	padding-right: 21px;
+	margin-top: 20px;
+	margin-bottom: 8px;
+}
+.vn li{
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	padding-right: 21px;
+	margin-bottom: 20px;
+	color: #666666;
+}
+.left{
+	float: left;
+	margin-bottom: 26px;
+	margin-top: 24px;
+}
+.right{
+	float: right;		
+}
+.zt li{
+	list-style: none;
+	float: right;
+	font-size: 12px;
+	padding-right: 21px;
+	margin-top: 20px;
+	margin-bottom: 8px;
+}
+.vn li{
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	padding-right: 21px;
+	margin-bottom: 20px;
+	color: #666666;
+}
+.center2{
+	background-image: url(images/logo2_02.png);
+	height: 220px;
+	background-position: 50%;
+}
+.rlbx{
+	width: 1140px;
+	margin:0 auto;
+}
+.rqleft{
+	background-image: url(images/logo3_03.png);
+	background-repeat:no-repeat;
+	width: 96px;
+	border-top: 1px solid #ffffff;
+	float:left;
+}
+.rqleft p{
+	font-size: 12px;
+	color: #a6a6a6;
+	margin-left: 30px;
+	line-height: 30px;
+	padding-top: 18px;
+}
+.rqleft h1{
+	font-size:41px;
+	color: #999999;
+	margin-left: 30px;
+	padding-bottom: 87px;
+}
+.rqright{
+	float: right;
+	border-top: 1px solid #ffffff;
+	margin-right: 30px;
+}	
+.zd .rqright{
+	float: right;
+	width:950px;
+}
+.frist{
+	margin-top: 50px;
+}
+.xk{
+	float: left;
+	width: 700px;
+	height: 108px;
+}
+.xk h2{
+	font-size: 18px;
+	color: #dd4012;
+	margin-top: 28px;
+	margin-bottom: 20px;
+}
+.xk .xk1{
+	color: #a6a6a6;
+	font-size:12px;
+}
+.xk .xk2{
+	color: #333333;
+	font-size: 12px;
+}
+.xk p{
+	font-size: 12px;
+	color: #666666;
+	margin-top: 15px;
+}
+.t{
+	float: left;
+	padding-top: 32px;
+	margin-bottom: 53px;
+}
+.z{
+	float: left;
+	margin-left: 20px;
+}
