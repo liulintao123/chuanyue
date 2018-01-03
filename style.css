@@ -5,6 +5,10 @@ body{
 .head{
 	height: 48px;
 	background-color: #323232;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 .bx{
 	width: 1140px;
@@ -63,6 +67,9 @@ body{
 	margin-left: 20px;
 	color: #575757;
 }
+.f2 .imgone img{
+	padding-top: 15px;
+}
 .center{
 	background-image: url(images/tupian_03.png);
 	height: 220px;
@@ -71,7 +78,11 @@ body{
 	width: 1140px;
 	margin: 0 auto;
 	height: 80px;
-}				
+}
+.bt a{
+	display: block;
+}
+
 .bt2{
 	float: left;
 	list-style: none;
@@ -84,7 +95,7 @@ body{
 	margin-right: 5px;
 	background-color: #ffffff;
 }
-.bt2:hover{
+.bt2 a:hover{
 	color: #ffffff;
 }
 .bt .bt3{
@@ -97,22 +108,60 @@ body{
 	width: 1140px;
 	margin: 0 auto;	
 }
+.tubx .tu3{
+	float: left;
+	margin-bottom: 31px;
+}
 .tubx .tu1{
 	float: left;
 	margin-bottom: 31px;
-	margin-left: 22px;
+	margin-left: 30px;
 }
-.tu1{
-	width: 260px;
+.tu3{
 	background-color: #ffffff;	
 	border: 1px solid #ffffff;
+	transition:all 0.5s;
+}
+.tu3:hover{
+	border: 1px solid orange;
+	background-color: #f0f0f0;
+	transform:scale(1.1);
+	transform:rotate(15deg);
+}
+.tu1{
+	background-color: #ffffff; 	
+	border: 1px solid #ffffff;
+	transition:all 0.5s;	
 }
  .tu1:hover{
 	border: 1px solid orange;
-	
+	background-color: #f0f0f0;
+	transform:scale(1.1);
+	transform:rotate(15deg);
 }
 .tubx .tu2{
 	margin-right: 0px;
+}
+.tu1 h1{
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 7px;
+	border-bottom: 1px solid #f7f7f7;
+	margin-left: 12px;
+}
+.tu3 h1{
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 7px;
+	border-bottom: 1px solid #f7f7f7;
+	margin-left: 12px;
+}
+.tu3 p{
+	padding: 9px;
+	margin-bottom: 20px;;
+	color: #c0bfbf;
+	font-size: 10px;
+	margin-left: 12px;
 }
 .tu1 h1{
 	font-size: 16px;
@@ -285,7 +334,8 @@ body{
 	float: left;
 	margin-top: 53px;
 	width: 100%;
-	padding-bottom: 10px;
+	padding-bottom: 64px;
+
 }
 .bk h1{
 	font-family: "微软雅黑";
@@ -300,6 +350,7 @@ body{
 }
 .bk .bk-1{
 	border-bottom: 1px solid #f0f1f1;
+	padding-bottom: 10px;
 }
 .span .xk2-1{
 	padding-bottom: 10px;
@@ -314,11 +365,125 @@ body{
 }
 .bk-1 .xk2-3{
 	float: right;
-	margin-right: 95px;
+	margin-right: 96px;
 }
 .center3{
 	height: 300px;
 	margin-left: 53px;
 	margin-right: 58px;
 	margin-top: 32px;
+}
+.gg{
+	margin-bottom: 60px;
+}
+.wz{
+	font-size: 14px;
+	color:#5d5d5d;
+	margin-left: 53px;
+	padding-bottom: 42px;
+	border-bottom: 1px solid #f0f1f1;
+	width: 995px;
+}
+.wz p{
+	margin-top: 33px;
+}
+.wz2{
+	width: 92%
+}
+.wz2 li{
+	list-style: none;
+	color: #999999;
+	margin-top: 18px;
+}
+.wz2 li a{
+	color: #333333;
+}
+.wz2 .left-1{
+	float: left;
+	margin-left: 53px;
+}
+.wz2 .right-1 {
+
+	float: right;
+}
+.center4{
+	background-image: url(images/chuanyue4_02.png);
+	height: 220px;
+}
+.wk{
+	margin-top: 46px;
+	margin-bottom: 40px;
+}
+.border{
+	width: 200px;
+	background-color: #000000;
+	color: #909090;
+	float: left;
+}
+.border ul li{
+	border: 1px solid #1b1c1e;
+	display: block;
+
+}
+.border li a{
+	display: block;
+	padding-bottom: 11px;
+	padding-top: 11px;
+	font-size: 14px;
+}
+.border li a{
+	list-style: none;
+	margin-left: 34px;
+}
+.border li:hover{
+	background-color: #dd4012;
+	color: #ffffff;
+}
+.border li a:hover{
+	color: #ffffff;
+}
+.border-right{
+	float: right;
+}
+.center5{
+	background-image: url(images/chuanyue5_03.png);
+	height: 220px;
+}
+.btt li{
+	list-style: none;
+}
+.btt1{
+	float: left;
+}
+.btt1 li{
+	float: left;
+}
+.btt1 li{
+	margin-top: 30px;
+	margin-right: 2px;
+	background-color: #cdcdcd;
+	margin-bottom: 50px;
+}
+.btt1 li a{
+	display: block;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 16px;
+	padding-right: 25px;
+	font-size: 14px;
+	color: #666666;
+}
+.btt1 li:hover{
+	background-color: #dd4012;
+}
+.btt1 li a:hover{
+	color: #ffffff;
+}
+.btt1 .bfd{
+	margin-right: 0px;
+		
+}
+.center6{
+	background-image: url(images/chuanyue6_02.png);
+	height: 220px;
 }
