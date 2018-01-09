@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animation</title>
+	<style type="text/css">
+	.div1 span{
+		position: relative;
+		top:0;
+	}
+	.span1{
+		animation:jiazai 0.5s infinite 0.2s;
+	}
+	.span2{
+		animation:jiazai 0.5s infinite 0.3s;
+	}
+	.span3{
+		animation:jiazai 0.5s infinite 0.4s;
+	}
+	@keyframes jiazai{
+		0%{
+		}
+		50%{
+			top:-5px;
+		}
+		100%{
+			top:0;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		正在加载中
+		<span class="span1">.</span>
+		<span class="span2">.</span>
+		<span class="span3">.</span>
+	</div>
+</body>
+</html>

@@ -5,10 +5,11 @@ body{
 .head{
 	height: 48px;
 	background-color: #323232;
-	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100%;
+	height: 100%;
+}
+.head img{
+	display: block;
 }
 .bx{
 	width: 1140px;
@@ -53,7 +54,7 @@ body{
 	display: block;
 }	
 .f1 li a:hover{
-	color: #eeb1a7;
+	color: #ffffff;
 }
 .f2{
 	list-style: none;
@@ -71,13 +72,31 @@ body{
 	padding-top: 15px;
 }
 .center{
-	background-image: url(images/tupian_03.png);
-	height: 220px;
+		position: relative;
+		height: 220px;
+}
+.xcenter{
+		width: 100%;
+		height: 30px;
+		background-color: rgba(0,0,0,.5);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+}
+.xcenter li{
+	list-style: none;
+	float: left;
+}
+.xcenter .you{
+	margin-right: 10px;
+}
+.xcenter .zuo{
+	margin-left: 10px;
 }
 .bt{
 	width: 1140px;
 	margin: 0 auto;
-	height: 80px;
+	height: 40px;
 }
 .bt a{
 	display: block;
@@ -126,18 +145,28 @@ body{
 	border: 1px solid orange;
 	background-color: #f0f0f0;
 	transform:scale(1.1);
-	transform:rotate(15deg);
 }
 .tu1{
 	background-color: #ffffff; 	
 	border: 1px solid #ffffff;
 	transition:all 0.5s;	
 }
- .tu1:hover{
+.tu1 a{
+	color: #000;
+}
+.tu3 a{
+	color: #000;
+}
+.tu3 p a{
+	color: #7b7b7b;
+}
+.tu1 p a{
+	color: #7b7b7b;
+}
+.tu1:hover{
 	border: 1px solid orange;
 	background-color: #f0f0f0;
 	transform:scale(1.1);
-	transform:rotate(15deg);
 }
 .tubx .tu2{
 	margin-right: 0px;
@@ -192,11 +221,14 @@ body{
 	text-align: center;
 }
 .gd span:hover{
-	background-color: orange;
+	background-color: #dd4012;
 }
-.gd  a{
+.gd a{
 	font-size: 14px;
 	display: block;
+}
+.gd a:hover{
+	color: #ffffff;
 }
 .later{
 	background-color: #323232;
@@ -269,6 +301,11 @@ body{
 	border-top: 1px solid #f0f0f0;
 	float:left;
 }
+.rqleft1{
+	width: 96px;
+	border-top: 1px solid #f0f0f0;
+	float:left;
+}
 .rqleft p{
 	font-size: 12px;
 	color: #a6a6a6;
@@ -276,7 +313,20 @@ body{
 	line-height: 30px;
 	padding-top: 18px;
 }
+.rqleft1 p{
+	font-size: 12px;
+	color: #a6a6a6;
+	margin-left: 30px;
+	line-height: 30px;
+	padding-top: 18px;
+}
 .rqleft h1{
+	font-size:41px;
+	color: #999999;
+	margin-left: 30px;
+	padding-bottom: 87px;
+}
+.rqleft1 h1{
 	font-size:41px;
 	color: #999999;
 	margin-left: 30px;

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>案列1</title>
+	<style type="text/css">
+	.d{
+		margin: 0 auto;
+		margin-top: 60px;
+		width:440px;
+		position: relative; 
+	}
+	.tu{
+		width: 440px;
+		height: 220px;
+	}
+	.zzc{
+		width: 440px;
+		height: 220px;
+		background-color: #000000;
+		opacity:0; 
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.d:hover .zzc{
+		opacity: 0.5;
+	}
+	.l{
+		position: absolute;
+		bottom: 0;
+		right: 20px;
+		bottom: 10px;
+		color: #ffffff;
+	}
+ 	span{
+		width: 8px;
+		height:8px;
+		background-color: #ffffff;
+		border-radius: 6px;
+		display: inline-block;
+		position: relative;
+		border:2px solid #ffffff;
+	}
+	.span1{
+		animation:jiazai 0.5s infinite 0.3s;
+		
+	}
+	.span2{
+		animation:jiazai 0.5s infinite 0.6s;
+		
+	}
+	.span3{
+		animation:jiazai 0.5s infinite 0.9s;
+	}
+	@keyframes jiazai{
+		0%{
+			top:0;
+			border:2px solid blue;
+		}
+		50%{
+			top:-5px;
+			border:2px solid #ffffff;
+		}
+		100%{
+			top:0;
+			border:2px solid blue;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div class="d">
+		<img src="images/animation.png@440w_220h.webp">
+		<div class="zzc">
+			<div class="l">Loading
+				<span class="span1"></span>
+				<span class="span2"></span>
+				<span class="span3"></span>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
